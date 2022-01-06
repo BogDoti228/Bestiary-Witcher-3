@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Witcher";
+    src: url("../fonts/Chronicles_font.ttf");
+}
+
+html {
+    padding: 0;
+    min-width: 1200px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.body {
+    font-family: "Witcher", sans-serif;
+    min-width: 1200px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.to-hide {
+    display: none;
+}
+
+.body__input-0:checked ~ .content .page-0,
+.body__input-1:checked ~ .content .page-1,
+.body__input-2:checked ~ .content .page-2,
+.body__input-3:checked ~ .content .page-3,
+.body__input-4:checked ~ .content .page-4 {
+    display: flex;
+}
